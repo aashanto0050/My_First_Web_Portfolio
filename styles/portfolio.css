@@ -1,0 +1,275 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 100;
+}
+
+
+/* shared styles */
+.second-bg-color {
+    background-color: #FFF8F3;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-1 {
+    color: #181818;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 9px;
+    border: none;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+.section-description {
+    font-size: 18px;
+    margin-bottom: 50px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* header */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+/* Nav-styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    font-style: normal;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 35px 0px 200px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-welcome-greetings {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-profile-pic {
+    width: 584;
+    height: 676;
+
+}
+
+
+.contact {
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 18px 35px;
+}
+
+/* main styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* about section styles */
+.about {
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px 150px;
+}
+
+.about-bg-color {
+    border: 1px solid #000;
+    background: #FFF;
+    border-radius: 5px;
+
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-item {
+    margin: 5px;
+}
+
+.item-description {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* skills section styles */
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    /* justify-content: space-around; */
+}
+
+.skill {
+    /* padding bolte vitore er part tuku kaj */
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Resume section styles */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 30px;
+}
+
+.resume-column-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.experience-title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.experience-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.experience-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+/* .resume hr {
+    width: 558px;
+    height: 1px;
+    background: #D1D1D1;
+} */
+
+.resume-download-cv {
+    margin: 50px;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 113px;
+    display: flex;
+    background: #FFF8F3;
+    gap: 117px;
+    padding: 130px 200px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-link a {
+    margin: 20px;
+}
+
+.form input {
+    display: block;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    width: 46px;
+    height: 30px;
+    width: 100%;
+    color: #757575;
+    padding: 18px 35px;
+}
+
+#textarea {
+    width: 46px;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    margin-bottom: 24px;
+    color: #757575;
+    padding: 18px 35px;
+}
